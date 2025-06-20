@@ -6,5 +6,6 @@ __pycache__/
 .idea/
 *.log
 chrome-linux64/
+.env
 # created by virtualenv automatically
 *
