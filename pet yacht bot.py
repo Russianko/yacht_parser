@@ -21,7 +21,7 @@ def fetch_yacht_data(yacht_type, budget):
     return yacht_data
 
 #use our API token from Bot-Father
-TELEGRAM_API_TOKEN = '7961888782:AAF2TARBP9dYZkv7IhnXsAvzlCdRNK7DW8s'
+TELEGRAM_API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 
 #Function to start
 async def start(update: Update, context):
