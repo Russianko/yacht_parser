@@ -6,6 +6,12 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, A
 from dotenv import load_dotenv
 
 
+#загрузка переменных
+load_dotenv()
+
+TELEGRAM_API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
+
+
 #загрузка переменных из .env
 load_dotenv()
 
