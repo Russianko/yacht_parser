@@ -1,5 +1,4 @@
 __pycache__/
-*.py[cod]
 *.egg-info/
 .env
 .venv/
@@ -8,4 +7,4 @@ __pycache__/
 chrome-linux64/
 .env
 # created by virtualenv automatically
-*
+#*
