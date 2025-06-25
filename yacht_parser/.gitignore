@@ -4,6 +4,11 @@ __pycache__/
 *.egg-info/
 *.log
 
+# База собранного
+.db
+.pkl
+yacht_parser/Data/
+
 # Виртуальное окружение
 .venv/
 env/
@@ -22,3 +27,4 @@ Thumbs.db
 
 # Дополнительно
 chrome-linux64/
+chromedriver*/git rm --cached -r yacht_parser/Data/
