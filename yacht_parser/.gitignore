@@ -8,6 +8,7 @@ __pycache__/
 .db
 .pkl
 yacht_parser/Data/
+/Data/
 
 # Виртуальное окружение
 .venv/
