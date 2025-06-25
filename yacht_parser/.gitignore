@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Виртуальное окружение
+.venv/
+env/
+venv/
+
+# IDE/редакторы
+.idea/
+.vscode/
+
+# Переменные окружения
+.env
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Дополнительно
+chrome-linux64/
