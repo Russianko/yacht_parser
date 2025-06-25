@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# База собранного
+.db
+.pkl
+yacht_parser/Data/
+/Data/
+
+# Виртуальное окружение
+.venv/
+env/
+venv/
+
+# IDE/редакторы
+.idea/
+.vscode/
+
+# Переменные окружения
+.env
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Дополнительно
+chrome-linux64/
+chromedriver*
