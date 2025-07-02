@@ -29,3 +29,6 @@ Thumbs.db
 # Дополнительно
 chrome-linux64/
 chromedriver*
+.idea/
+HTML and CSS/
+__pycache__/
