@@ -3,7 +3,7 @@ import time
 from yacht_parser.Parser.get_links_by_producer import get_links_by_producer
 from parse_yacht import parse_yacht
 
-conn = sqlite3.connect("yacht.db")
+conn = sqlite3.connect("../Data/yacht.db")
 cursor = conn.cursor()
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS yachts (
