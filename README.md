@@ -20,7 +20,8 @@ yacht_parser/
 ├── Bot/
 │   ├── bot_logic.py             # Логика Telegram-бота
 │   ├── handlers.py              # Хендлеры команд и сообщений
-│   └── pet yacht bot.py         # Точка входа для запуска бота
+│   └── pet yacht bot.py         # тренировочный файл              
+│   
 │
 ├── Parser/
 │   ├── get_links_by_producer.py # Получение ссылок на яхты по бренду
